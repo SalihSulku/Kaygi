@@ -59,6 +59,9 @@ h2{font-weight:800;font-size:clamp(1.45rem,5vw,2.2rem);line-height:1.05;margin:0
 .end p{color:var(--mute);margin:0 0 .8rem;max-width:34rem}
 .end h2{font-size:1.6rem}
 .end a{color:var(--accent);text-underline-offset:.15em}
+.links{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.6rem}
+.end .links a{display:inline-block;color:var(--ink);background:var(--card);border:2px solid var(--ink);border-radius:.6rem;padding:.45rem .95rem;font-weight:600;font-size:.95rem;text-decoration:none;box-shadow:3px 3px 0 var(--ink);transition:transform .15s,box-shadow .15s}
+.end .links a:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
 input[type=range]{width:100%;accent-color:var(--accent);margin:.9rem 0 .3rem}
 .out{font-size:1.05rem}
 .out b{font-weight:800;font-size:2.2rem;display:block;line-height:1}
@@ -114,7 +117,8 @@ input[type=range]{width:100%;accent-color:var(--accent);margin:.9rem 0 .3rem}
 <section class="slide full end" data-k="end"><h2>Bu noktalar ne söylemiyor?</h2>
 <p>Bunlar ilişki, neden değil. Az uyumak kaygıyı artırıyor olabilir, kaygılı olmak da uykuyu bozuyor olabilir.</p>
 <p>Terapi seansları sayısı da kaygıyla birlikte artıyor. Büyük ihtimalle kaygılı olanlar terapiye daha çok gidiyor.</p>
-<p class="small">Veri: Kaggle’daki <a href="https://www.kaggle.com/datasets/natezhang123/social-anxiety-dataset" target="_blank" rel="noopener">Social Anxiety Dataset</a> (natezhang123), 11.000 kayıt. Uyku saati, günlük kafein (mg), stres seviyesi (1–10), cinsiyet, terapi seansı sayısı ve kaygı puanı (1–10) kullanıldı. Noktalar bu kayıtlardan rastgele seçilen 300 kişi, ortalamalar tüm kayıtlar üzerinden hesaplandı.</p></section>
+<p class="small">Veri: Kaggle’daki <a href="https://www.kaggle.com/datasets/natezhang123/social-anxiety-dataset" target="_blank" rel="noopener">Social Anxiety Dataset</a> (natezhang123), 11.000 kayıt. Uyku saati, günlük kafein (mg), stres seviyesi (1–10), cinsiyet, terapi seansı sayısı ve kaygı puanı (1–10) kullanıldı. Noktalar bu kayıtlardan rastgele seçilen 300 kişi, ortalamalar tüm kayıtlar üzerinden hesaplandı.</p>
+<div class="links"><a href="https://www.linkedin.com/in/salih-s%C3%BClk%C3%BC-ab95a2389/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/SalihSulku" target="_blank" rel="noopener">GitHub</a><a href="https://salihsulku.vercel.app/" target="_blank" rel="noopener">Portföy sitem</a></div></section>
 
 <div class="nav" id="nav"></div>
 <div class="ctl"><button id="bp" aria-label="Önceki">Geri</button><button id="bn" aria-label="Sonraki">İleri</button></div>
